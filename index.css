@@ -1,0 +1,32 @@
+body { min-width: 300px; margin: 0 0 0 0;}
+header {position: relative; text-align: center;}
+header h2{display: inline; color: white; font-family: sans-serif, "맑은 고딕", serif;}
+header .head {height : 64px; background-color: #2F86A6;}
+header .menu{position: absolute; left: 25px;}
+header .login{position: absolute; right: 25px;}
+header .home{position: absolute; left: 50%;transform: translateX(-50%);}
+
+ul {list-style:none;}
+a {text-decoration: none; color: inherit;}
+.board {position: relative; text-align: center; padding: 0 100px 20px 100px;
+    top: 60px; left: 50%;transform: translateX(-50%); background-color: #2F86A6;
+}
+.board .top {padding : 0 0 50px;}
+.board1 {float: left; padding-left: 20px;}
+.board2 {float: right; padding-right: 20px;}
+.boardlist {position: relative; border: 1px solid red; border-radius: 10px;}
+.boardlist ul {padding: 0 0 0 0; margin : 0 0;}
+.boardlist li {border-bottom: 1px solid red; }
+.boardlist li:last-child {border-bottom: none;}
+.boardlist li a {display: block; line-height: 60px;}
+.boardlist li span {display: block; padding-left: 40%; width: 100px; overflow: hidden;
+    white-space: nowrap; text-overflow: ellipsis;}
+.boardlist .date {position: absolute; left: 30px; margin: 0 0;}
+.boardlist .name {position: absolute; right: 30px; margin: 0 0;}
+
+.subMenu div{position: fixed; display: inline-block; width: 100px; background-color: #df7cd6; top: 100px;}
+
+footer {position: relative; padding: 20px; text-align: center; margin-top: 50px;}
+footer ul {padding: 0; }
+footer li {display: inline-block; border: 1px solid blue;}
+footer li a {padding: 0 10px;}
