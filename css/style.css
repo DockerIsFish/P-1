@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+body{
+  margin: 0;
+  background-color: #9999;
+  font-family: 'Roboto'
+}
+
+/* anchor tag 관리 */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header{
+  display: flex; /* header div를 수평에 둠 */
+  justify-content: space-between;
+  align-items: center; /* header div 수직 중앙 맞춤 */
+  height: 60px;
+  padding: 0px 20px;
+  background: #045D8B
+}
+
+.header_togglebutton{
+  display: block;
+}
+
+.header_logo_text{
+  font-size: 14px;
+}
+
+.header_login_text{
+  font-size: 14px;
+}
+
+.board_list li{
+  display: none;
+  list-style: none;
+  width: 25%;
+  text-align: center;
+  padding: 20px 12px;
+}
+
+.board_list li:hover{
+  background-color: #a7b4e0;
+  border-radius: 4px;
+}
+
+.board_list.active{
+  display: flex;
+}

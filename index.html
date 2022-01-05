@@ -1,10 +1,59 @@
-<<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <!-- html5의 인코딩 지정 방법 -->
+    <meta name="viewpoint" content="width=device-width", initial-sclae=1>
+    <!-- 반응형 웹 구현 위해 필요한 메타 태그 -->
+    <!-- viewpoint:스크롤 없이 기본적으로 화면에 보이는 영역 -->
+    <!-- content="width-device-width":현재 보고 있는 기기 너비에 맞춤 -->
+    <!-- initial-sclae=1:기기 너비에 맞춘 것을 초기 화면 배율 1로 지정함 -->
+    <meta name="author" content="yejinkim">
+    <!-- 웹페이지 소유자 -->
+    <title>AJOU MEMO</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- style.css 파일과 연결 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <script src="./js/main.js" defer></script>
+
   </head>
   <body>
+
+    <nav class="header">
+
+      <a href="#">
+        <img class="header_togglebutton" src="./css/icon/togglemenu_icon.png" />
+      </a>
+
+      <!-- <a href="" class="header_togglebutton">
+        <img src="./css/icon/togglemenu_icon.png" alt="toggle menu icon"></a> -->
+
+      <div class="header_logo_text">
+        <a href="">AJOU MEMO</a>
+      </div>
+
+      <div class="header_login_text">
+        <a href="">로그인</a>
+      </div>
+
+    </nav>
+
+
+    <nav class="board_menu">
+
+      <ul class="board_list">
+        <li><a href="">자유게시판</a></li>
+        <li><a href="">비밀게시판</a></li>
+        <li><a href="">정보게시판</a></li>
+        <li><a href="">홍보게시판</a></li>
+        <li><a href="">SW게시판</a></li>
+        <!-- (li>a)*5 입력 후 Tab키 누르면 <li><a ~> 5번 반복-->
+      </ul>
+
+    </nav>
 
   </body>
 </html>
