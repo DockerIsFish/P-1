@@ -1,0 +1,54 @@
+:root {
+    /* Color */
+    --main-color: #045D8B;
+    --line-color: #acc4cc;
+    --white-color: #FFFFFF;
+    --grey-color: #434A4D;
+
+    /* Size */
+    --padding: 30px;   
+}
+
+* {
+    margin: 0;
+    box-sizing: content-box;
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+}
+
+body {
+    font-family: Roboto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: var(--padding);
+    background-color: var(--main-color);
+    align-items: center;
+}
+
+#nav_icon {
+    color: var(--white-color);
+}
+
+.site_name {
+    color: var(--white-color);
+    font-size: 50px;
+}
+
+.login_button {
+    color: var(--white-color);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
